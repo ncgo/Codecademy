@@ -22,23 +22,49 @@
                 <li><span class="tag">&lt;title&gt; &lt;/title&gt;</span> <br> Title displayed on the browser's title bar</li>
             </ul>
             <h3>Elements</h3>
-            <ul>
-                <li><span class="tag">&lt;p&gt; &lt;/p&gt;</span> <br>paragraphs</li>
-                <li><span class="tag">&lt;div&gt; &lt;/div&gt;</span> <br>divs</li>
-                <li><span class="tag">&lt;a href=" " target="_blank" &gt; &lt;/a&gt;</span> <br> Anchor used to create hyperlinks</li>
-                <ul>
-                    <li><span class="tag">./</span> relative path, <span class="tag">#id</span> different part of page</li> 
-                </ul>
-                <li><span class="tag">&lt;br&gt;</span> <br> Line Break</li>
-                <li><span class="tag">&lt;ul&gt; &lt;/ul&gt;</span> <br> Unordered List, bullet points</li>
-                <li><span class="tag">&lt;ol&gt; &lt;/ol&gt;</span> <br>Ordered List, numbered points</li>
-                <ul>
-                    <li><span class="tag">&lt;li&gt; &lt;/li&gt;</span> <br> List Item element</li>
-                </ul>
-                <li><span class="tag">&lt;img src="image.png" alt= "text describing image"&gt;</span> <br> Image</li>
-                <li><span class="tag">&lt;video src="test-video.mp4" controls&gt; <br>Text if video not supported &lt;/video&gt;</span> <br> Video</li>
-                
-            </ul>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">&lt;p&gt; &lt;/p&gt;</span></td>
+                        <td>paragraphs</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;div&gt; &lt;/div&gt;</span></td>
+                        <td>divs</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;a href="link" target="_blank" &gt; &lt;/a&gt;</span></td>
+                        <td>Anchor used to create hyperlinks
+                            <br>
+                            <span class="tag">./</span> relative path, <span class="tag">#id</span> different part of page
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;br&gt;</span></td>
+                        <td>Line Break</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;ul&gt; &lt;/ul&gt;</span></td>
+                        <td>Unordered List, bullet points</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;ol&gt; &lt;/ol&gt;</span></td>
+                        <td>Ordered List, numbered points</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;li&gt; &lt;/li&gt;</span></td>
+                        <td>List Item element</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;img src="image.png" alt= "text describing image"&gt;</span></td>
+                        <td>Image</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">&lt;video src="test-video.mp4" controls&gt;</span><br></span>Text if video not supported <span class="tag">&lt;/video&gt;</span> </td>
+                        <td>Video</td>
+                    </tr>
+                </tbody>
+            </table>
             <h3>Headers</h3>
             <ul>
                 <li><span class="tag">&lt;h1&gt; &lt;/h1&gt;</span> Header 1</li>
@@ -53,6 +79,109 @@
                 <li><span class="tag">&lt;em&gt; &lt;/em&gt;</span> Emphasis, <em>italicize</em></li>
                 <li><span class="tag">&lt;strong&gt; &lt;/strong&gt;</span> Strong, <strong>bold</strong></li>
             </ul>
+        </div>
+        <br>
+        <div id="Lesson2">
+            <h2>Tables</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;table&gt; &lt;/table&gt;</td>
+                        <td>Table</td></td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tr&gt; &lt;/tr&gt;</td>
+                        <td>Table Row Element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;td&gt; &lt;/td&gt;</td>
+                        <td>Table Data Element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">colspan="num"</td>
+                        <td>colspan Atribute</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">rowspan="num"</td>
+                        <td>rowspan Atribute</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tbody&gt; &lt;/tbody&gt;</td>
+                        <td>Table Body Element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;thead&gt; &lt;/thead&gt;</td>
+                        <td>Table Head Element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;tfoot&gt; &lt;/tfoot&gt;</td>
+                        <td>Table Footer Element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;th&gt; &lt;/th&gt;</td>
+                        <td>Table Heading Element</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Lesson3">
+            <h2>Forms</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;form method="post" action="http://server1"&gt; &lt;/form&gt;</td>
+                        <td>Form Element</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;form action="/index.3.html method="PUT"&gt; &lt;/form&gt;</td>
+                        <td>Submitting a form</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;label for="fname"&gt; Label Text &lt;/label&gt;</td>
+                        <td>Label, identification for a specific input with a matching id</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;input type="text" name="fname" id="fname"&gt;</td>
+                        <td>Input</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Input Types</h3>
+            <ul>
+                <li><span class="tag">text</span> Single row input field</li>
+                <li><span class="tag">password</span> Single row input field that censors the input</li>
+                <li><span class="tag">number</span> Enter only numbers</li>
+                <li><span class="tag">range</span> Range slider</li>
+                <ul>
+                    <li class="tag">min</li>
+                    <li class="tag">max</li>
+                    <li class="tag">step</li>
+                </ul>>
+                <li><span class="tag">checkbox</span> Checkbox Type, multiple options, must have same names</li>
+                <li><span class="tag">radio</span> Radio Button Type, single option, must have same names</li>
+            </ul>
+            <br>
+            <h3>More Elements</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="tag">&lt;select name="fname"&gt;</td>
+                        <td>Select, create a dropdown list, with a list of choices. Only one option by default.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;datalist id="ide"&gt;</td>
+                        <td>Stores a list of options. User starts typing and it autocompletes.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;option value="fname" &gt;</td>
+                        <td>Options</td>
+                    </tr>
+                    <tr>
+                        <td class="tag">&lt;textarea rows="num" cols="num"  name="comment" &gt; &lt;textarea&gt;</td>
+                        <td>Text</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>
