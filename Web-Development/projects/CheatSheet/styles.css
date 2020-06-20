@@ -1,0 +1,26 @@
+li, p {
+    color: black;
+}
+
+h1, .tag {
+    color: #4c934c;
+}
+
+.tag {
+    font-size: 20px;
+    text-emphasis: bold;
+}
+
+h2 {
+    color:#d8973c;
+}
+
+html{
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
